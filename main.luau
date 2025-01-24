@@ -43,3 +43,4 @@ if game.PlaceId == 155615604 then
     PlayerSection:NewSlider("Jumppower", "Changes the jumppower", 250, 50, function(v)
         game.Players.LocalPlayer.Character.Humanoid.JumpPower = v
     end)
+end
